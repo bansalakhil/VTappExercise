@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "hello hello"
+path=dirname $0
+file=`cat $path/execFile`
+echo $file
+echo "done"

@@ -1,0 +1,7 @@
+#!/bin/bash
+path=`dirname $0`
+while read line           
+do           
+pattern=`sed -E 's/www\./http\:\/\/www\./' $path/execFile>$path/output`
+done <$path/execFile
+echo "I am done"

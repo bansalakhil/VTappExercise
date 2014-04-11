@@ -1,0 +1,10 @@
+#!/bin/bash
+hello()
+{
+  echo "Hello World $1 $2 $3 $4 $5"
+  echo "enter your NAME"
+  read name
+  echo "hello $name"
+}
+
+hello shruti g g g h

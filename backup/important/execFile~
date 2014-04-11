@@ -1,0 +1,10 @@
+#!/bin/bash
+# declare STRING variable
+STRING="Hello World"
+NUMBER=`expr 2 + 4 `
+#print variable on a screen
+echo $STRING
+echo $NUMBER
+
+dir_output=`ls -l`
+echo $dir_output
