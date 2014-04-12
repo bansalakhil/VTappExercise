@@ -1,7 +1,0 @@
-#!/bin/bash
-while read line           
-do           
-    modified_line=$line
-    pattern=`sed s/World/shruti/ execFile>sh5`         
-done <execFile
-echo "I am done"
