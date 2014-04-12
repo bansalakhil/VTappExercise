@@ -1,5 +1,5 @@
 #!/bin/bash
-dirname $0
+path=`dirname $0`
 while read line           
 do           
 sed -E 's/www\./http\:\/\/www\./' $path/CompanyNames>$path/ModifiedCompanyNames
