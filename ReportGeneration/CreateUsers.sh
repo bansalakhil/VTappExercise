@@ -2,8 +2,8 @@
 path=`dirname $0`
 MAILARRAY=("yahoo.com" "gmail.com" "rediffmail.com" "hotmail.com")
 CITYARRAY=("Delhi" "Mumbai" "Banglore" "Kolkata" "Chennai")
-emailID=${MAILARRAY[$Index]}
-cityID=${MAILARRAY[$Index]}
+#emailID=${MAILARRAY[$Index]}
+#cityID=${MAILARRAY[$Index]}
 COUNTER=0
 
    while [  $COUNTER -lt 100 ]; do
