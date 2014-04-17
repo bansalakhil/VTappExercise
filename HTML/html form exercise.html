@@ -1,192 +1,194 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			HTML Form Exercise
-		</title>
-		<style type="text/css">
-		  .header {
-		  	padding-left:10px;
-		  	padding-top:30px;
-		  	font-weight:bold;
-		  }
-		</style>
-	</head>
-	<body >
-		<table bgcolor="#F5F5FF" width="60%" align="center" cellspacing="0">
-			<thead>
-				<tr>
-					<td colspan="2">
-						<h1 align="center">
-		  					HTML Form Exercise
-		 				</h1>
-					</td>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td colspan="2">
-						<p>
-							<font color="red">Please Note:</font>This example demonstrates how html forms can be used. Submit button should submit the button and reset button should reset the form(revert the changes in the fields). The form layout should be the same as below.
-		 				</p>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-					Contact form
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>Your Name<sup>*</sup>:</label>
-					</td>
-					<td>
-						<input type="text" maxlength="40" id="name">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>E-Mail<sup>*</sup>:</label>
-					</td>
-					<td>
-						<input type="email" maxlength="40" id="email" style="background-color:#FFFF85;">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>Phone Number:</label>
-					</td>
-					<td>
-						<input type="tel" maxlength="10" id="phoneNumber" style="background-color:#FFFF85;">
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<label>Website<sup>*</sup>:</label>
-					</td>
-					<td>
-						<input type="url" maxlength="10" id="website" value="http://">
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<label>Comments<sup>*</sup>:</label></br>
-						<textarea rows="5" cols="40"></textarea>
-					</td>
-				</tr>
-				<tr >
-					<td colspan="2" class="header">
-						Text Field
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<label>Your Name<sup>*</sup>:</label>
-						<input type="text" maxlength="40" id="name" style="background-color:#FFFF85;">
-					</td>
-				</tr>
-				<tr >
-					<td colspan="2" class="header">
-						Password Field
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<label>Password<sup>*</sup>:</label>
-						<input type="text" maxlength="40" id="name">
-					</td>
-				</tr>
-				<tr >
-					<td colspan="2" class="header">
-						Radio Button
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						Do you like pizza ?</br>
-						<input type="radio" name="pizzaChoice" id="pizzaChoice" value="yes">YES</br>
-						<input type="radio" name="pizzaChoice" id="pizzaChoice" value="no">NO</br>
-						<input type="radio" name="pizzaChoice" id="pizzaChoice" value="maybe">MAY BE</br>
-						<input type="radio" name="pizzaChoice" id="pizzaChoice" value="nevertried">NEVER TRIED</br>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						Check Box
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<input type="checkbox" id="checkLike">Check this if you like our service
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						Text Area
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						Do you want to say anything ?</br>
-						<textarea rows="5" cols="40"></textarea>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						I Like
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<select id="pizzaChoice" size="5">
-							<option value="mushroom">Mushroom</option>
-							<option value="greenPepper">Green Pepper</option>
-							<option value="onion">Onion</option>
-							<option value="tomatoes">Tomatoes</option>
-							<option value="olives">Olives</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						Menu
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						Your Favourite Color</br>
-						<select id="pizzaChoice">
-							<option value="red">Red</option>
-							<option value="green">Green</option>
-							<option value="blue">Blue</option>
-							<option value="yellow">Yellow</option>
-							<option value="orange">Orange</option>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						Attach File
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-					<input type="file" name="browse" size="40" value="browse">
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2" class="header">
-						Buttons
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<input type="submit" id="submitButton" value="Submit">
-						<input type="reset" id="resetButton" value="Reset">
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		 
-	</body>
+ <head>
+  <title>
+  HTML Form Exercise
+  </title>
+  <style type="text/css">
+  .header {
+    padding-left:10px;
+	padding-top:30px;
+	font-weight:bold;
+	  }
+   td {
+   	padding-left: 5px;
+   }
+   </style>
+</head>
+<body >
+  <table bgcolor="#F5F5F5" width="600" align="center" >
+    <thead>
+      <tr>
+	    <td colspan="2">
+		  <h1 align="center">
+	  	    HTML Form Exercise
+	 	  </h1>
+		</td>
+	  </tr>
+	 </thead>
+	 <tbody>
+	   <tr>
+	     <td colspan="2">
+		   <p>
+			  <font color="red">Please Note:</font>This example demonstrates how html forms can be used. Submit button should submit the button and reset button should reset the form(revert the changes in the fields). The form layout should be the same as below.
+	 		</p>
+		 </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+		    Contact form
+		  </td>
+		</tr>
+		<tr>
+		  <td width="100">
+		    <label>Your Name<sup>*</sup>:</label>
+		  </td>
+		  <td>
+		    <input type="text" maxlength="40" id="name">
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <label>E-Mail<sup>*</sup>:</label>
+		  </td>
+		  <td>
+		    <input type="email" maxlength="40" id="email" style="background-color:#FFFF85;">
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <label>Phone Number:</label>
+		  </td>
+		  <td>
+		    <input type="tel" maxlength="10" id="phoneNumber" style="background-color:#FFFF85;">
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <label>Website<sup>*</sup>:</label>
+		  </td>
+		  <td>
+		    <input type="url" maxlength="10" id="website" size="30" value="http://">
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<label>Comments<sup>*</sup>:</label></br>
+			  <textarea rows="5" cols="40"></textarea>
+		  </td>
+		</tr>
+		<tr >
+		  <td colspan="2" class="header">
+			Text Field
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<label>Your Name<sup>*</sup>:</label>
+			<input type="text" maxlength="40" id="name" style="background-color:#FFFF85;">
+		  </td>
+		</tr>
+		<tr >
+		  <td colspan="2" class="header">
+			Password Field
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+		    <label>Password<sup>*</sup>:</label>
+			<input type="text" maxlength="40" id="name">
+		  </td>
+		</tr>
+		<tr >
+		  <td colspan="2" class="header">
+			Radio Button
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+		    Do you like pizza ?</br>
+			<input type="radio" name="pizzaChoice" id="pizzaChoice" value="yes">YES</br>
+			<input type="radio" name="pizzaChoice" id="pizzaChoice" value="no">NO</br>
+			<input type="radio" name="pizzaChoice" id="pizzaChoice" value="maybe">MAY BE</br>
+			<input type="radio" name="pizzaChoice" id="pizzaChoice" value="nevertried">NEVER TRIED</br>
+		   </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+			Check Box
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<input type="checkbox" id="checkLike">Check this if you like our service
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+			Text Area
+		  </td>
+	    </tr>
+		<tr>
+		  <td colspan="2">
+			Do you want to say anything ?</br>
+			<textarea rows="5" cols="40"></textarea>
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+			I Like
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<select id="pizzaChoice" size="5">
+			  <option value="mushroom">Mushroom</option>
+			  <option value="greenPepper">Green Pepper</option>
+			  <option value="onion">Onion</option>
+			  <option value="tomatoes">Tomatoes</option>
+			  <option value="olives">Olives</option>
+			</select>
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+			Menu
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			Your Favourite Color</br>
+			  <select id="pizzaChoice">
+				<option value="red">Red</option>
+			    <option value="green">Green</option>
+				<option value="blue">Blue</option>
+				<option value="yellow">Yellow</option>
+				<option value="orange">Orange</option>
+			  </select>
+		   </td>
+		</tr>
+	    <tr>
+		  <td colspan="2" class="header">
+			Attach File
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<input type="file" name="browse" size="40" value="browse">
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2" class="header">
+			Buttons
+		  </td>
+		</tr>
+		<tr>
+		  <td colspan="2">
+			<input type="submit" id="submitButton" value="Submit">
+			<input type="reset" id="resetButton" value="Reset">
+		  </td>
+		</tr>
+      </tbody>
+	</table>	 
+  </body>
 </html>
