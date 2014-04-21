@@ -1,11 +1,12 @@
+body{
+	margin: 0;
+}
 #outer{
 	min-width: 1000px;
 	max-width: 1000px; 
 	margin: 0 auto;
 }
 #headerdiv{
-	
-	/*height:100%;*/
 	font-family:Tahoma, arial, sans-serif;
 	font-size: 24px;
 	color: black;
@@ -16,20 +17,16 @@
 }
 #centerdiv{
 	display: table;
-	/*height:100%;*/
 	width: 1000px;
 }
 #leftdiv {
 	display: table-cell;
 	width: 250px;
-	/*height: 100%;*/
 	background-color:  #0ab1ff;
-	padding-top,padding-bottom: 25px;
-	padding-left,padding-right: 10px;
+	padding: 25px 10px;
 	font-family:Tahoma, arial, sans-serif;
 	font-size: 12px;
 	color: black;
-	padding: 10px;
 }
 #leftdiv #leftheading{
 	font-size: 18px;
@@ -41,7 +38,9 @@
 #links{
 	position: relative;
 	left: 0px;
-	margin-left: -18px;
+}
+#links ul{
+	padding: 0px 0px 0px 15px;
 }
 #links ul li{
 	color: #fff;
@@ -60,14 +59,9 @@
 #rightdiv{
 	display: table-cell;
 	width: 750px;
-	/*height: 100%;*/
 	font-family:Tahoma, arial, sans-serif;
 	color: black;
 	background-color: #ededed;
-	padding-left: 10px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 10px;
 }
 #rightdiv #rightheading{
 	font-family:Tahoma, arial, sans-serif;
@@ -82,7 +76,6 @@
 #footerdiv{
 
 	font-family:Tahoma, arial, sans-serif;
-	/*height:100%;*/
 	font-size: 24px;
 	color: black;
 	text-align: center;
