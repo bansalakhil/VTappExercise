@@ -2,9 +2,11 @@
 	font-style: italic;
 	font-size: 18px;
 	font-family: "Georgia",serif;
-	padding-left,padding-right: 20px;
+	padding-left:20px;
+    padding-right: 20px;
 	height: 37px;
 	border-bottom: #6d6d6d;
+    margin-left: 2px;
 }
 .menuelements{
     float:left;
@@ -17,53 +19,56 @@
     padding-left: 10px;
     padding-right: 10px;
     border-bottom: 1px solid #6d6d6d;
-    //border: 1px solid black;
 }
-#mainmenu a{
+#mainmenu .list{
     display:block;
     padding:5px;
     color:black;
     text-decoration:none;
 }
+#mainmenu .list:hover{
+    color: #8c8c8c;
+}
+#mainmenu li:hover .list{
+    color: #8c8c8c;
+}
 #mainmenu ul li ul{
 	display: none;
+    width: 70px;
 }
 #mainmenu ul li:hover ul{ 
 	display: block;
     padding-left: 0px;
     font-size: 14px;
-}
-/*#aboutusDropdown{
-    display: block;
-}*/
-/*#aboutusDropdown li{
-    padding: 5px;
-    list-style: none;
-    text-align: center;
-}*/
-#mainmenu>li:hover .menuelements>a{ 
+    position: absolute;
+    margin-left: -11px;
+    width: 180px;
+    border: solid 1px #000;
+    z-index: -1;
+    border-top: 0px;
+    margin-top: 3px;
     color: #8c8c8c;
-    background-color: yellow;
-    /*position: relative;
-    z-index: -1;*/
+
 }
 #mainmenu .menuelements:hover { 
     border: 1px solid black;
+    border-bottom:0px;
     background-color: #fff;
+    /*color: #8c8c8c;*/
+    color: red;
 }
-
-/*#mainmenu ul li a:hover {
-    color: #8c8c8c;
-    text-decoration:none;
-}*/
 .menuelements ul li{
     padding-right: 5px;
     list-style: none;
     border-bottom: 1px solid #cfcfcf;
     color: black;
+    padding:5px;
+    text-decoration:none;
 }
-.menuelements .dropdownbox li:hover a{
-    color: #6d6d6d;
-    text-decoration: underline;
-    background-color: yellow;
+.subsubList{
+    color: black;
+    text-decoration:none;
+}
+.subsubList:hover{
+    color: #bd0707;
 }
