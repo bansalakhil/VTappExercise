@@ -1,0 +1,91 @@
+#outer{
+	min-width: 1000px;
+	max-width: 1000px; 
+}
+#headerdiv{
+	
+	height:100%;
+	font :"tahoma";
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	border-bottom: 2px solid #0ab1ff;
+	background-color: #b2e7ff;
+	padding: 20px; 	
+}
+#centerdiv{
+	display: table;
+	height:100%;
+	width: 1000px;
+}
+#leftdiv {
+	display: table-cell;
+	width: 250px;
+	height: 100%;
+	background-color:  #0ab1ff;
+	padding-top,padding-bottom: 25px;
+	padding-left,padding-right: 10px;
+	font :"tahoma";
+	font-size: 12px;
+	color: black;
+	padding: 10px;
+}
+#leftdiv #leftheading{
+	font-size: 18px;
+	font: tahoma;
+	color: black;
+	padding-bottom: 10px;
+
+}
+#links{
+	position: relative;
+	left: 0px;
+	margin-left: -18px;
+}
+#links ul li{
+	color: #fff;
+	font-size: 14px;
+	font: tahoma;
+	text-decoration: none;
+	padding-bottom: 15px;
+	left: 0px;
+}
+#leftdiv #links ul li a{
+	color: #fff;
+	font-size: 14px;
+	font: tahoma;
+	text-decoration: none;
+}
+#rightdiv{
+	display: table-cell;
+	width: 750px;
+	height: 100%;
+	font :"tahoma";
+	color: black;
+	background-color: #ededed;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+#rightdiv #rightheading{
+	font :"tahoma";
+	font-size: 24px;
+	color: black;
+}
+#rightdiv #rightpara{
+	font :"tahoma";
+	font-size: 14px;
+	color: #802525;
+}
+#footerdiv{
+
+	font :"tahoma";
+	height:100%;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	border-bottom: 2px solid #0ab1ff;
+	background-color: #3cff78;
+	padding: 20px;
+}
