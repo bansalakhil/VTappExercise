@@ -4,10 +4,10 @@
 	font-size: 13px;
 	font: "tahoma";
 	color: black;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 #headerLinks {
-	margin-top: -2%;
+	margin-top: -1%;
 	margin-left: 75%;
 	display: fixed;
 }
@@ -21,8 +21,9 @@ linkcolor>a{
 #formOuterDiv{
 	max-width: 500px;
 	min-width: 500px;
-	position: relative;
-	left: 362px;
+	/*position: relative;
+	left: 362px;*/
+	margin: 0 auto;
 	padding-top: 25px;
 }
 #formOuterDiv p{
