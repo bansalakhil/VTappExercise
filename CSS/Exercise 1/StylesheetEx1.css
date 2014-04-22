@@ -2,15 +2,24 @@
 	font-style: italic;
 	font-size: 18px;
 	font-family: "Georgia",serif;
-	padding-left:20px;
-    padding-right: 20px;
 	height: 37px;
-	border-bottom: #6d6d6d;
-    margin-left: 2px;
+    border-bottom: 1px solid #6d6d6d;
+    margin-left: 20px;
+    margin-top:20px;
+    max-width: 578px
+}
+#mainmenu>ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+#home{
+    padding-left: 10px;
 }
 .menuelements{
     float:left;
-    margin-right:2px;
+    margin-right:1px;
+    margin-left: 1px;
     position:relative;
     list-style: none;
     background-color: #cfcfcf;
@@ -18,7 +27,7 @@
     padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: 1px solid #6d6d6d;
+    width: auto;
 }
 #mainmenu .list{
     display:block;
@@ -29,12 +38,17 @@
 #mainmenu .list:hover{
     color: #8c8c8c;
 }
+/*to persist the color on link*/
 #mainmenu li:hover .list{
     color: #8c8c8c;
 }
+#mainmenu li:hover {
+    color: #8c8c8c;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 #mainmenu ul li ul{
 	display: none;
-    width: 70px;
 }
 #mainmenu ul li:hover ul{ 
 	display: block;
@@ -48,13 +62,16 @@
     border-top: 0px;
     margin-top: 3px;
     color: #8c8c8c;
-
+    margin-bottom: 5px;
+}
+#mainmenu ul li:last-child:hover ul{
+    margin-left: -72px;
+    text-align: right;
 }
 #mainmenu .menuelements:hover { 
     border: 1px solid black;
     border-bottom:0px;
     background-color: #fff;
-    /*color: #8c8c8c;*/
     color: red;
 }
 .menuelements ul li{
@@ -62,8 +79,12 @@
     list-style: none;
     border-bottom: 1px solid #cfcfcf;
     color: black;
-    padding:5px;
+    padding:0px 5px 5px 5px;
     text-decoration:none;
+    margin-bottom: 10px;
+}
+.menuelements ul li:last-child{
+    border-bottom: 0px;
 }
 .subsubList{
     color: black;
